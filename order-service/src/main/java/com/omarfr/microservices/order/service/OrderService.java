@@ -15,7 +15,6 @@ import java.util.UUID;
 @Slf4j
 public class OrderService {
     private final OrderRepository orderRepository;
-
     private final InventoryClient inventoryClient;
 
     public void placeOrder(OrderRequest orderRequest) {

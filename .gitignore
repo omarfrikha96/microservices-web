@@ -1,0 +1,11 @@
+# Exclude the entire data directory at the root level
+/data/
+
+# Exclude data directory inside product-service
+/product-service/data/
+
+# Exclude mysql directory inside order-service
+/order-service/mysql/
+
+# Exclude mysql directory inside inventory-service
+/inventory-service/mysql/
